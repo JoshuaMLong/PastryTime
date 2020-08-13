@@ -1,0 +1,9 @@
+@import '~@angular/material/theming';
+
+$primaryPalette : mat-palette($mat-deep-purple);
+$accentPalette : mat-palette($mat-amber, A200, A100, A400);
+$secondaryPalette : mat-palette($mat-blue-grey, A200, A100, A400);
+
+$primary : #2196F3;
+$accent : mat-color($accentPalette);
+$secondary : #2f273e;

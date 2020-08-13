@@ -1,0 +1,12 @@
+@import '../../theme.scss';
+
+.sidebar {
+    background-color: $secondary;
+    color:white;
+    width: 200px;
+    height:100%;
+}
+.sidebar *{
+    width: 100%;
+    display: block;
+}

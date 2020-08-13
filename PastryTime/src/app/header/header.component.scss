@@ -1,0 +1,31 @@
+@import '../../theme.scss';
+.toolbar {
+    background-color: $primary;
+    color: white;
+    height: 45px;
+    flex: 1 1 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.toolbar * {
+    flex: 1 1 auto;
+}
+.p-inputtext-sm
+{
+    text-align: center;
+}
+.p-input-icon-left{
+    display: flex;
+}
+.p-input-icon-left *{
+    width: 15rem;
+}
+.pi-shopping-cart {
+    float: right;
+}
+:host{
+    display: flex;
+}

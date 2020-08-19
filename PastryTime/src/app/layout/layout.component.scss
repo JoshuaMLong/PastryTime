@@ -1,5 +1,14 @@
+@import '../../theme.scss';
 :host
 {
-    height:100%;
-    display: block;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+app-content{
+    flex: 1;
+}
+app-footer {
+    background-color: $primary;
+    color: $text-primary;
 }
